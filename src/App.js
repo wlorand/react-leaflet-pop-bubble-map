@@ -1,13 +1,18 @@
+import React from 'react';
+
+// child components
+import AsianPopulationMap from './components/maps/AsianPopulationMap';
+
 // styles
 import './styles/globals.css';
 
 function App() {
   return (
     <div>
-      <header className="app-header">
+      <header className="map-header">
         <h1>Population Bubble Map</h1>
       </header>
-      yo
+      <AsianPopulationMap />
     </div>
   );
 }

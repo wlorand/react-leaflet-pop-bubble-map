@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <header className="map-header">
-        <h1>Population Bubble Map</h1>
+        <h1>Most Populated Cities in Asia</h1>
       </header>
       <AsianPopulationMap />
     </div>
